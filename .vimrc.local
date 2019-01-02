@@ -1,0 +1,3 @@
+" Ctrl-j/k deletes blank line below/above, and Alt-j/k inserts.
+nnoremap <silent><C-k> m`:silent -g/\m^\s*$/d<CR>``:noh<CR>
+noremap <silent><C-j> :set paste<CR>m`O<Esc>``:set nopaste<CR>
