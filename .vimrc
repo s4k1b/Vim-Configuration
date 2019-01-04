@@ -9,6 +9,10 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
+"You complete me
+Plugin 'Valloric/YouCompleteMe'
+"Vim Markdown
+Bundle 'gabrielelana/vim-markdown'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
